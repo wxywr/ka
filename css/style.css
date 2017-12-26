@@ -28,10 +28,10 @@ html{font-size: 100px;}
 .sub{
 	width: 35%;
 	display: block;
-	margin: 0.5rem auto 0;
+	margin: 0.5rem auto 0.3rem;
 }
 .sub img{
-		width: 100%;
+	width: 100%;
 }
 form{
 	width: 100%;
@@ -115,10 +115,12 @@ input::-webkit-input-placeholder{
 
 #imgBox{
 	text-align: left;
+	width: 100%;
+	margin-top: 0.4rem;
 }
 .imgContainer{
 	display: inline-block;
-	width: 32%;
+	width: 31%;
 	/*height: 150px;*/
 	margin-left: 2%;
 	/*border: 1px solid #666666;*/
