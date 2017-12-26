@@ -100,7 +100,7 @@ function submitPicture(url,data) {
 //图片灯箱
 function imgDisplay(obj) {
 	var src = $(obj).attr("src");
-	var imgHtml = '<div style="width: 100%;overflow: auto;background: rgba(0,0,0,0.5);text-align: center;position: fixed;top: 0;left: 0;z-index: 1000;"><img src=' + src + ' style="width: 70%;margin:100px auto;"/><p style="font-size: 50px;position: fixed;top: 30px;right: 30px;color: white;cursor: pointer;" onclick="closePicture(this)">×</p></div>'
+	var imgHtml = '<div style="width: 100%;height: 100%;overflow: auto;background: rgba(0,0,0,0.5);text-align: center;position: fixed;top: 0;left: 0;z-index: 1000;"><img src=' + src + ' style="width: 70%;margin:100px auto;"/><p style="font-size: 50px;position: fixed;top: 30px;right: 30px;color: white;cursor: pointer;" onclick="closePicture(this)">×</p></div>'
 	$('body').append(imgHtml);
 }
 
